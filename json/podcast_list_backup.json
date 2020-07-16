@@ -1,0 +1,59 @@
+{
+    "podcasts": [
+        {
+            "show": "The Joe Rogan Experience",
+            "episode": "Bernie Sanders",
+            "url": "https://www.podgist.com/joe-rogan-experience/1330-bernie-sanders/index.html"
+        },
+        {
+            "show": "The Joe Rogan Experience",
+            "episode": "Elon Musk",
+            "url": "https://www.podgist.com/joe-rogan-experience/1470-elon-musk/index.html"
+        },
+        {
+            "show": "The Joe Rogan Experience",
+            "episode": "Stephen Dubner",
+            "url": "https://www.podgist.com/joe-rogan-experience/1437-stephen-dubner/index.html"
+        },
+        {
+            "show": "The Daily",
+            "episode": "Wisconsin's Pandemic Primary",
+            "url": "https://www.podgist.com/the-daily/wisconsins-pandemic-primary/index.html"
+        },
+        {
+            "show": "The Daily",
+            "episode": "A Potential Peace Deal With the Taliban",
+            "url": "https://www.podgist.com/the-daily/a-potential-peace-deal-with-the-taliban/index.html"
+        },
+        {
+            "show": "Revisionist History",
+            "episode": "Divide and Conquer",
+            "url": "https://www.podgist.com/revisionist-history/divide-and-conquer/index.html"
+        },
+        {
+            "show": "Revisionist History",
+            "episode": "McDonald’s Broke My Heart",
+            "url": "https://www.podgist.com/revisionist-history/mcdonalds-broke-my-heart/index.html"
+        },
+        {
+            "show": "Revisionist History",
+            "episode": "The Tortoise and the Hare",
+            "url": "https://www.podgist.com/revisionist-history/the-tortoise-and-the-hare/index.html"
+        },
+        {
+            "show": "Dissect",
+            "episode": "DNA. (Part 1) by Kendrick Lamar",
+            "url": "https://www.podgist.com/dissect/s5e4-dna-part-1-by-kendrick-lamar/index.html"
+        },
+        {
+            "show": "Dissect",
+            "episode": "Through the Wire by Kanye West",
+            "url": "https://www.podgist.com/dissect/s2e2-through-the-wire-by-kanye-west/index.html"
+        },
+        {
+            "show": "Freakonomics Radio",
+            "episode": "How Spotify Saved the Music Industry (But Not Necessarily Musicians)",
+            "url": "https://www.podgist.com/freakonomics/374-how-spotify-saved-the-music-industry-but-not-necessarily-musicians/index.html"
+        }
+    ]
+}
