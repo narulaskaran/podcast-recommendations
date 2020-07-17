@@ -1,5 +1,6 @@
+Django==3.0.8
+numpy==1.18.2
 requests==2.18.4
 audioread==2.1.8
-numpy==1.18.2
 SpeechRecognition==3.8.1
 beautifulsoup4==4.9.1
