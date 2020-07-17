@@ -1,8 +1,9 @@
-Django==3.0.8
-numpy==1.18.2
 requests==2.18.4
-audioread==2.1.8
+gensim==3.8.3
 SpeechRecognition==3.8.1
+numpy==1.18.2
+audioread==2.1.8
+Flask==1.1.2
+nltk==3.5
 beautifulsoup4==4.9.1
-nltk
-gensim
+pandas==1.0.5
