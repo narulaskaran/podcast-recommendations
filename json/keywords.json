@@ -122,6 +122,26 @@
                 "job",
                 "fired"
             ]
+        },
+        {
+            "news": [
+                "corona",
+                "coronavirus",
+                "covid",
+                "news",
+                "politics",
+                "election",
+                "president",
+                "hill",
+                "speech",
+                "campaign",
+                "treaty",
+                "international",
+                "jobs",
+                "healthcare",
+                "twitter",
+                "politician"
+            ]
         }
     ]
 }
