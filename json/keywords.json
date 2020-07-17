@@ -1,7 +1,8 @@
 {
     "bucket_to_keyword": [
         {
-            "disease": [
+            "bucket": "disease",
+            "keywords": [
                 "corona",
                 "coronavirus",
                 "covid",
@@ -13,7 +14,8 @@
             ]
         },
         {
-            "people": [
+            "bucket": "people",
+            "keywords": [
                 "friend",
                 "friends",
                 "parents",
@@ -29,7 +31,8 @@
             ]
         },
         {
-            "sports": [
+            "bucket": "sports",
+            "keywords": [
                 "baseball",
                 "basketball",
                 "football",
@@ -51,7 +54,8 @@
             ]
         },
         {
-            "comedy": [
+            "bucket": "comedy",
+            "keywords": [
                 "standup",
                 "mic",
                 "microphone",
@@ -67,7 +71,8 @@
             ]
         },
         {
-            "cars": [
+            "bucket": "cars",
+            "keywords": [
                 "ford",
                 "honda",
                 "civic",
@@ -89,7 +94,8 @@
             ]
         },
         {
-            "school": [
+            "bucket": "school",
+            "keywords": [
                 "learn",
                 "book",
                 "textbook",
@@ -108,7 +114,8 @@
             ]
         },
         {
-            "work": [
+            "bucket": "work",
+            "keywords": [
                 "boss",
                 "office",
                 "work",
@@ -124,7 +131,8 @@
             ]
         },
         {
-            "news": [
+            "bucket": "news",
+            "keywords": [
                 "corona",
                 "coronavirus",
                 "covid",
