@@ -34,6 +34,6 @@ if __name__ == "__main__":
             transcript = transcript.replace('"', "")
             transcript = transcript.replace('"', "")
             
-            podcast['transcript'] = extract(url)
+            podcast['transcript'] = extract(url).lower()
         
     write_json(json_read)
