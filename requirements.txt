@@ -5,3 +5,4 @@ audioread==2.1.8
 SpeechRecognition==3.8.1
 beautifulsoup4==4.9.1
 nltk
+gensim
