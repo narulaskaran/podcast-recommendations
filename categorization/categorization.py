@@ -23,21 +23,6 @@ def load_features():
         for word in keywords:
             keyword_to_bucket[word] = bucket
 
-
-# Placeholder for now
-# Reads in the transcript information for each podcast episode from podcast_list.json
-# Performs td-idf and creates feature vectors for each podcast
-def extract_feature_vector(transcript):
-    pass
-
-
-# Placeholder for now
-# Takes a feature vector from extract_feature_vector() (for some particular podcast)
-# Classifies the podcast as one of the buckets defined in keywords.json
-def classify(feature_vector):
-    pass
-
-
 def recommend(topic):
     text_corpus = []
     podcast_list = []

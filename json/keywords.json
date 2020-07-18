@@ -141,6 +141,69 @@
             "healthcare",
             "twitter",
             "politician"
+        ],
+
+        "food":
+        [
+            "ice cream",
+            "cake",
+            "food",
+            "dessert",
+            "starbucks",
+            "fast food",
+            "frosting",
+            "coffee",
+            "tea",
+            "chocolate",
+            "beef",
+            "chicken",
+            "vegetables",
+            "meat",
+            "sugar",
+            "drinks",
+            "pie",
+            "doughnut",
+            "green tea",
+            "recipes",
+            "fish",
+            "candy"
+        ],
+
+        "lifestyle":
+        [
+            "gardening",
+            "hair",
+            "furniture",
+            "dance",
+            "painting",
+            "DIY",
+            "decoration",
+            "art",
+            "murals",
+            "music",
+            "home"
+        ],
+
+        "music": [
+            "indie",
+            "pop",
+            "rock",
+            "indie rock",
+            "alt",
+            "alternative",
+            "EDM",
+            "house music",
+            "bollywood",
+            "electronic",
+            "loud",
+            "garage",
+            "band",
+            "guitar",
+            "piano",
+            "instrumental",
+            "sing",
+            "singer",
+            "microphone"
         ]
     }
 }
