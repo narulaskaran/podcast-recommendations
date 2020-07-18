@@ -82,7 +82,7 @@ def recommend(topic):
 
     df = pd.DataFrame(data = genre_score_map)
     categories = df.idxmax(axis=1)
-    podcast_index = categories[categories == "work"].index.tolist()
+    podcast_index = categories[categories == topic].index.tolist()
     
     return [podcast_list[i] for i in podcast_index]
 
@@ -96,4 +96,4 @@ if __name__ == "__main__":
     # Counter = Counter(arr)
     # common = Counter.most_common()
     # print(common)
-    print (recommend("school"))
+    print (recommend("people"))
