@@ -5,10 +5,12 @@ import json
 import sys, os
 
 sys.path.append(os.path.abspath('./categorization'))
-from categorization import recommend
-from interest_mapping import convert_topic_to_category
+from categorization import Recommend
+from interest_mapping import InterestConverter
 
 app = Flask(__name__)
+converter = InterestConverter()
+recommender = Recommend()
 
 @app.route('/')
 def hello_world():
@@ -27,10 +29,10 @@ def sample_endpoint(methods=['GET']):
     res['message'] = topic
 
     # map topic to category
-    category = convert_topic_to_category(topic)
+    category = converter.convert_topic_to_category(topic)
 
     # grab recommendations
-    podcasts = recommend(category)
+    podcasts = recommender.recommend(category)
     
     res['podcasts'] = podcasts
     return res

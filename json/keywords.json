@@ -128,6 +128,12 @@
             "politician"
         ],
         "food": [
+            "cakes",
+            "sandwiches",
+            "cupcakes",
+            "beef (food)",
+            "pastries & pies",
+            "sugar cookies",
             "ice cream",
             "cake",
             "food",
@@ -149,7 +155,9 @@
             "green tea",
             "recipes",
             "fish",
-            "candy"
+            "candy",
+            "cook",
+            "cooking"
         ],
         "lifestyle": [
             "gardening",
@@ -165,6 +173,12 @@
             "home"
         ],
         "music": [
+            "rock music",
+            "pop music",
+            "musical theater",
+            "musical performance",
+            "singing and voice",
+            "bts (music group)",
             "indie",
             "pop",
             "rock",
@@ -184,6 +198,17 @@
             "sing",
             "singer",
             "microphone"
+        ],
+        "business": [
+            "walt disney pictures",
+            "starbucks",
+            "twitter (company)",
+            "coffeehoue & tea shops",
+            "youtube",
+            "tesla cars",
+            "netflix (company)",
+            "microsoft",
+            "apple"
         ]
     }
 }

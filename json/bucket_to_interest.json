@@ -1,0 +1,253 @@
+{
+    "buckets": [
+        {
+            "category": "disease",
+            "interests": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "category": "people",
+            "interests": [
+                "Instagram",
+                "ice cream",
+                "chrissy teigen",
+                "lady gaga",
+                "rihanna",
+                "vera wang",
+                "kanye west",
+                "ryan reynolds"
+            ]
+        },
+        {
+            "category": "sports",
+            "interests": [
+                "baseball",
+                "basketball",
+                "football",
+                "ball",
+                "kick",
+                "throw",
+                "swim",
+                "run",
+                "gym",
+                "weights",
+                "lift",
+                "squat",
+                "bench",
+                "deadlift",
+                "bar",
+                "surf",
+                "hike",
+                "cycle",
+                "soccer"
+            ]
+        },
+        {
+            "category": "comedy",
+            "interests": [
+                "standup",
+                "mic",
+                "microphone",
+                "laugh",
+                "laughing",
+                "killing",
+                "crying",
+                "joke",
+                "jokes",
+                "comedy",
+                "comic",
+                "comedic"
+            ]
+        },
+        {
+            "category": "cars",
+            "interests": [
+                "ford",
+                "honda",
+                "civic",
+                "toyota",
+                "car",
+                "drive",
+                "motorcycle",
+                "bike",
+                "tesla",
+                "mercedes",
+                "cupholder",
+                "engine",
+                "oil",
+                "exhaust",
+                "windshield",
+                "tire",
+                "wheel",
+                "trunk"
+            ]
+        },
+        {
+            "category": "school",
+            "interests": [
+                "education technology",
+                "computers, tablets, and accessories",
+                "learn",
+                "book",
+                "textbook",
+                "pencil",
+                "pen",
+                "eraser",
+                "computer",
+                "laptop",
+                "school",
+                "teacher",
+                "professor",
+                "recess",
+                "principal",
+                "graduate",
+                "diploma"
+            ]
+        },
+        {
+            "category": "work",
+            "interests": [
+                "artificial intelligence & machine learning",
+                "human-computer interaction",
+                "Software Engineering & Computer Programming",
+                "boss",
+                "office",
+                "work",
+                "computer",
+                "call",
+                "phone",
+                "sell",
+                "support",
+                "tech",
+                "warehoue",
+                "job",
+                "fired"
+            ]
+        },
+        {
+            "category": "news",
+            "interests": [
+                "corona",
+                "coronavirus",
+                "covid",
+                "news",
+                "politics",
+                "election",
+                "president",
+                "hill",
+                "speech",
+                "campaign",
+                "treaty",
+                "international",
+                "jobs",
+                "healthcare",
+                "twitter",
+                "politician"
+            ]
+        },
+        {
+            "category": "food",
+            "interests": [
+                "cakes",
+                "sandwiches",
+                "cupcakes",
+                "beef (food)",
+                "pastries & pies",
+                "sugar cookies",
+                "ice cream",
+                "cake",
+                "food",
+                "dessert",
+                "starbucks",
+                "fast food",
+                "frosting",
+                "coffee",
+                "tea",
+                "chocolate",
+                "beef",
+                "chicken",
+                "vegetables",
+                "meat",
+                "sugar",
+                "drinks",
+                "pie",
+                "doughnut",
+                "green tea",
+                "recipes",
+                "fish",
+                "candy",
+                "cook",
+                "cooking"
+            ]
+        },
+        {
+            "category": "lifestyle",
+            "interests": [
+                "gardening",
+                "hair",
+                "furniture",
+                "dance",
+                "painting",
+                "DIY",
+                "decoration",
+                "art",
+                "murals",
+                "music",
+                "home",
+                "tesla"
+            ]
+        },
+        {
+            "category": "music",
+            "interests": [
+                "rock music",
+                "pop music",
+                "musical theater",
+                "musical performance",
+                "singing and voice",
+                "bts (music group)",
+                "indie",
+                "pop",
+                "rock",
+                "indie rock",
+                "alt",
+                "alternative",
+                "EDM",
+                "house music",
+                "bollywood",
+                "electronic",
+                "loud",
+                "garage",
+                "band",
+                "guitar",
+                "piano",
+                "instrumental",
+                "sing",
+                "singer",
+                "microphone"
+            ]
+        },
+        {
+            "category": "business",
+            "interests": [
+                "walt disney pictures",
+                "starbucks",
+                "twitter (company)",
+                "coffeehoue & tea shops",
+                "youtube",
+                "tesla cars",
+                "netflix (company)",
+                "microsoft",
+                "apple"
+            ]
+        }
+    ]
+}
