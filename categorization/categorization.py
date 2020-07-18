@@ -40,11 +40,13 @@ def classify(feature_vector):
 
 def recommend(topic):
     text_corpus = []
+    podcast_list = []
     with open(JSON_PODCAST_LIST) as f:
         json_read = json.load(f)
         podcasts = json_read['podcasts']
         for podcast in podcasts:
             text_corpus.append(podcast['transcript'])
+            podcast_list.append(podcast['show'] + " - " + podcast['episode'])
 
     stoplist = set(stopwords.words('english'))
     texts = [[word for word in document.lower().split() if word not in stoplist] for document in text_corpus]
@@ -63,7 +65,9 @@ def recommend(topic):
     # train the model
     tfidf = models.TfidfModel(bow_corpus)
 
-    with open('../json/keywords.json') as f:
+    index = similarities.SparseMatrixSimilarity(tfidf[bow_corpus], num_features=len(dictionary.token2id))
+
+    with open(JSON_FEATURES_PATH) as f:
         mapping = json.load(f)
 
     genre_score_map = {}
@@ -77,7 +81,10 @@ def recommend(topic):
         genre_score_map[genre] = list(sims)
 
     df = pd.DataFrame(data = genre_score_map)
-    print (df.idxmax(axis=1))
+    categories = df.idxmax(axis=1)
+    podcast_index = categories[categories == "work"].index.tolist()
+    
+    return [podcast_list[i] for i in podcast_index]
 
 
 
@@ -89,4 +96,4 @@ if __name__ == "__main__":
     # Counter = Counter(arr)
     # common = Counter.most_common()
     # print(common)
-    recommend("Education")
+    print (recommend("school"))
