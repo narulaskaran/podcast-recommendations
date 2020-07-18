@@ -7,10 +7,11 @@ import sys, os
 sys.path.append(os.path.abspath('./categorization'))
 from categorization import Recommend
 from interest_mapping import InterestConverter
-
-app = Flask(__name__)
 converter = InterestConverter()
 recommender = Recommend()
+
+app = Flask(__name__)
+
 
 @app.route('/')
 def hello_world():
@@ -36,3 +37,6 @@ def sample_endpoint(methods=['GET']):
     
     res['podcasts'] = podcasts
     return res
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8008, debug=True, ssl_context=('/homes/iws/ksnarula/Desktop/facebook-podcasts/web-server/server.cert', '/homes/iws/ksnarula/Desktop/facebook-podcasts/web-server/server.key'))
