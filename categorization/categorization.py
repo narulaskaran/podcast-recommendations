@@ -81,4 +81,4 @@ if __name__ == "__main__":
     # Counter = Counter(arr)
     # common = Counter.most_common()
     # print(common)
-    print (recommend("people"))
+    print (recommend("music"))

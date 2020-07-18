@@ -2,6 +2,12 @@
 
 from flask import Flask, request, abort
 import json
+import sys, os
+
+sys.path.append(os.path.abspath('./categorization'))
+from categorization import recommend
+from interest_mapping import convert_topic_to_category
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -13,10 +19,18 @@ def sample_endpoint(methods=['GET']):
     if request.method != 'GET':
         abort(400)
 
+    # extract fields
+    topic = request.args['category']
+
+    # create response json
     res = json.loads('{}')
-    res['message'] = 'Podcasts related to {}'.format(request.args['category'])
-    podcasts = []
-    # -- CALL CATEOGRIZATION ALGORITHM AND ADD ALL RELATED PODCASTS --
-    # -- insert code here --
+    res['message'] = topic
+
+    # map topic to category
+    category = convert_topic_to_category(topic)
+
+    # grab recommendations
+    podcasts = recommend(category)
+    
     res['podcasts'] = podcasts
     return res

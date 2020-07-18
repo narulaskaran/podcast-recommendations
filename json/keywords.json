@@ -1,7 +1,6 @@
 {
     "bucket_to_keyword": {
-        "disease":
-        [
+        "disease": [
             "corona",
             "coronavirus",
             "covid",
@@ -11,9 +10,7 @@
             "sneeze",
             "fever"
         ],
-
-        "people":
-        [
+        "people": [
             "friend",
             "friends",
             "parents",
@@ -27,9 +24,7 @@
             "uncle",
             "aunt"
         ],
-
-        "sports":
-        [
+        "sports": [
             "baseball",
             "basketball",
             "football",
@@ -49,9 +44,7 @@
             "hike",
             "cycle"
         ],
-
-        "comedy":
-        [
+        "comedy": [
             "standup",
             "mic",
             "microphone",
@@ -65,9 +58,7 @@
             "comic",
             "comedic"
         ],
-    
-        "cars":
-        [
+        "cars": [
             "ford",
             "honda",
             "civic",
@@ -87,9 +78,7 @@
             "wheel",
             "trunk"
         ],
-    
-        "school":
-        [
+        "school": [
             "learn",
             "book",
             "textbook",
@@ -106,9 +95,7 @@
             "graduate",
             "diploma"
         ],
-    
-        "work":
-        [
+        "work": [
             "boss",
             "office",
             "work",
@@ -122,9 +109,7 @@
             "job",
             "fired"
         ],
-    
-        "news":
-        [
+        "news": [
             "corona",
             "coronavirus",
             "covid",
@@ -142,9 +127,7 @@
             "twitter",
             "politician"
         ],
-
-        "food":
-        [
+        "food": [
             "ice cream",
             "cake",
             "food",
@@ -168,9 +151,7 @@
             "fish",
             "candy"
         ],
-
-        "lifestyle":
-        [
+        "lifestyle": [
             "gardening",
             "hair",
             "furniture",
@@ -183,7 +164,6 @@
             "music",
             "home"
         ],
-
         "music": [
             "indie",
             "pop",
