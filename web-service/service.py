@@ -31,12 +31,10 @@ def sample_endpoint(methods=['GET']):
 
     # map topic to category
     category = converter.convert_topic_to_category(topic)
+    print(category)
 
     # grab recommendations
     podcasts = recommender.recommend(category)
     
     res['podcasts'] = podcasts
     return res
-
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8008, debug=True, ssl_context=('/homes/iws/ksnarula/Desktop/facebook-podcasts/web-server/server.cert', '/homes/iws/ksnarula/Desktop/facebook-podcasts/web-server/server.key'))
