@@ -1,4 +1,4 @@
-# Showcasing that we can make powerful podcast recommendations baed on transcript analysis
+# Showcasing that we can make powerful podcast recommendations based on transcript analysis
 Transcripts acquired via [podgist](podgist.com). To add to the transcript collection, add a podcast entry to the `podcast_list.json` file (without a `transcript` attribute) and then run `scraper.py` from the root project directory.
 
 ## Bag of Words Categorization
